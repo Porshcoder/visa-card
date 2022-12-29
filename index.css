@@ -112,3 +112,12 @@
 .bg-black{
     background: #000;
 }
+
+.blend{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1; 
+}
