@@ -13,7 +13,7 @@
 .card{
     width:500px;
     height: 300px; 
-    color: rgb(245, 245, 247);
+    color:white;
     cursor: pointer;
 }
 
@@ -45,4 +45,17 @@
     z-index: -1;
 }
 
+.card-num{
+    font-size: 30px;
+}
+
+.card-holder{
+    font-size: 12px;
+}
+
+.card-name{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
 
