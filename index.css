@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background: #000;
+}
+
+.card{
+    width:500px;
+    height: 300px; 
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-inner{
+    width:100% ;
+    height: 100%;
+    position: relative;
+
+}
+
+.front{
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(45deg,#0045c7,#ff2c7d) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
